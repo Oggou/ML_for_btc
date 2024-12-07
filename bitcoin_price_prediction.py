@@ -67,7 +67,7 @@ font = {'family' : 'normal',
         'weight' : 'normal',
         'size'   : 16}
 # load the data
-data = pd.read_csv("C:\\Users\\jimmy\\OneDrive\\Documents\\Home\\0000000000_BTC_Trading\\baruch1192_BTC_ML\\-Bitcoin-Price-Prediction-Using-Transformers-main\\input\\okex_btcusdt_kline_1m.csv")
+data = pd.read_csv("..\\input\\okex_btcusdt_kline_1m.csv") #you till need to use / instead of \\ if you are on linux (added by JC)
 columns_dict = {'t': 'Unix_timestamp',
                 'o': 'Opening_price',
                 'h': 'Highest_price',
